@@ -1,14 +1,22 @@
+# _quarto.yml
+# This configuration creates the base for whole of the project which is of
+# `type: website` and will be deployed (one-day) to hrmnjt.dev. As of now, this
+# is an experiment and we will know if this passes or fails soon.
+
 project:
   type: website
 
 website:
   title: "hrmnjt.dev"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-
+    # keeping a dark background to have minimal profile
+    background: dark
+    # removing search for time being to simplify the UI options
+    search: false
+  draft-mode: unlinked
+    
 format:
   html:
-    theme: pandoc
+    # simplest dark theme after trying out a few
+    theme: darkly
     toc: true
