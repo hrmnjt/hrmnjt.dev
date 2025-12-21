@@ -1,2 +1,8 @@
+# .gitignore
+
+# by default added by quarto
 /.quarto/
 **/*.quarto_ipynb
+
+# ignoring generated `_site` to minimize what I want to publish
+_site

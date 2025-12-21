@@ -1,0 +1,16 @@
+# commencing boot sequence
+
+Installing uv
+
+brew install uv
+for me,
+added added uv to brewfile and did an update
+
+Installing quarto
+quarto already present using dmg
+installed quarto-nvim to have nvim work well with quarto
+
+# adosiajdosij
+
+
+
