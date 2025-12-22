@@ -80,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -166,8 +166,32 @@ window.Quarto = {
 
 
 <div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<table class="quarto-listing-table table caption-top">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+Title
+</th>
+
+<th>
+Date
+</th>
+
+</tr>
+</thead>
 <tbody class="list">
+
+<tr data-index="0" data-listing-date-sort="1766361600000" data-listing-file-modified-sort="1766430284259" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="605" data-listing-title-sort="commencing boot sequence" data-listing-filename-sort="commencing-boot-sequence.qmd">
+<td>
+<a href="./commencing-boot-sequence.html" class="title listing-title">commencing boot sequence</a>
+</td>
+<td>
+<span class="listing-date">Dec 22, 2025</span>
+</td>
+
+</tr>
+
 </tbody>
 </table>
 <div class="listing-no-matching d-none">No matching items</div>
