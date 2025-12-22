@@ -2,6 +2,9 @@
 title: ""
 listing:
     type: table
+    fields: 
+      - title
+      - date
     sort-ui: false
     filter-ui: false
     sort: "date desc"
