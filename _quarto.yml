@@ -20,3 +20,8 @@ format:
     # simplest dark theme after trying out a few
     theme: darkly
     toc: true
+
+# adding this option because I want to freeze runs locally before pushing
+# content to GH pages
+execute:
+  freeze: auto
