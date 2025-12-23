@@ -19,6 +19,9 @@ format:
   html:
     # simplest dark theme after trying out a few
     theme: darkly
+    mainfont: 'ui-monospace, "SF Mono", "Cascadia Mono", "Segoe UI Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace'
+    # fontsize: 0.95em
+    linestretch: 1.75
     toc: true
 
 # adding this option because I want to freeze runs locally before pushing
